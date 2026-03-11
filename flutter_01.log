@@ -1,0 +1,63 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter pub get
+
+## exception
+
+FileSystemException: FileSystemException: readInto failed, path = '/Users/hitech/Documents/GitHub/Dha-app-frontend/linux/flutter/generated_plugins.cmake' (OS Error: Operation timed out, errno = 60)
+
+```
+#0      _checkForErrorResponse (dart:io/common.dart:58:9)
+#1      _RandomAccessFile.readInto.<anonymous closure> (dart:io/file_impl.dart:928:7)
+#2      _rootRunUnary (dart:async/zone.dart:1538:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+<asynchronous suspension>
+#4      _File.readAsBytes.readSized.read.<anonymous closure> (dart:io/file_impl.dart:629:78)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.38.4, on macOS 15.6.1 24G90 darwin-arm64 (Rosetta), locale en-IN) [1,808ms]
+    [32m•[39m Flutter version 3.38.4 on channel stable at /Users/hitech/development/flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 66dd93f9a2 (8 days ago), 2025-12-03 14:56:10 -0800
+    [32m•[39m Engine revision a5cb96369e
+    [32m•[39m Dart version 3.10.3
+    [32m•[39m DevTools version 2.51.1
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets,
+      omit-legacy-version-file, enable-lldb-debugging
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0) [10.8s]
+    [32m•[39m Android SDK at /Users/hitech/Library/Android/sdk
+    [32m•[39m Emulator version 36.3.10.0 (build_id 14472402) (CL:N/A)
+    [32m•[39m Platform android-36, build-tools 36.1.0
+    [32m•[39m Java binary at: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java
+      This is the JDK bundled with the latest Android Studio installation on this machine.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Xcode - develop for iOS and macOS (Xcode 26.1.1) [29.6s]
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Build 17B100
+    [32m•[39m CocoaPods version 1.16.2
+
+[32m[✓][39m Chrome - develop for the web [14ms]
+    [32m•[39m Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[32m[✓][39m Connected device (4 available) [147.9s]
+    [32m•[39m motorola edge 50 neo (mobile) • ZD222NXRMQ    • android-arm64  • Android 15 (API 35)
+    [32m•[39m sdk gphone64 arm64 (mobile)   • emulator-5554 • android-arm64  • Android 16 (API 36) (emulator)
+    [32m•[39m macOS (desktop)               • macos         • darwin-arm64   • macOS 15.6.1 24G90 darwin-arm64 (Rosetta)
+    [32m•[39m Chrome (web)                  • chrome        • web-javascript • Google Chrome 143.0.7499.109
+
+[32m[✓][39m Network resources [639ms]
+    [32m•[39m All expected network resources are available.
+
+[32m•[39m No issues found!
+```
