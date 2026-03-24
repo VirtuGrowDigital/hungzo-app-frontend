@@ -25,7 +25,6 @@ class _PaymentMethodScreenState extends State<PaymentMethodScreen> {
         // Reset the flag
         orderController.paymentCompleted.value = false;
 
-        // Navigate to success screen
         Get.offAll(() => const OrderSuccessScreen());
       }
     });

@@ -1,6 +1,5 @@
 
 class Constants {
-
   static const splashShowTime = 2000; //in millisecond
   static const String authKey = 'auth_token';
   // static const String token = 'auth_token';
