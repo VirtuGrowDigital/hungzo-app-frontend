@@ -10,7 +10,6 @@ import 'package:shimmer/shimmer.dart';
 import '../constants/constants.dart';
 import '../utils/ColorConstants.dart';
 import 'order_details_screen.dart';
-
 /// =====================
 /// MY ORDERS SCREEN
 /// =====================

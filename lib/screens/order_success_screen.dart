@@ -5,7 +5,6 @@ import '../bindings/home_binding.dart';
 import '../utils/ColorConstants.dart';
 import '../utils/ImageConstant.dart';
 import 'home_view.dart';
-
 class OrderSuccessScreen extends StatelessWidget {
   const OrderSuccessScreen({super.key});
 

@@ -8,7 +8,6 @@ import '../model/wallet_model.dart';
 
 class WalletController extends GetxController {
   final storage = const FlutterSecureStorage();
-
   var isLoading = false.obs;
   var wallet = Rxn<WalletModel>();
 

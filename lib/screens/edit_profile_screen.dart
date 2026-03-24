@@ -13,7 +13,6 @@ import 'package:shimmer/shimmer.dart';
 import '../utils/ColorConstants.dart';
 import 'package:mime/mime.dart';
 
-
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});
 

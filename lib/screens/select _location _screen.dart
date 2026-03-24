@@ -57,7 +57,6 @@ class _SelectLocationScreenState extends State<SelectLocationScreen> {
       setState(() => isLoading = false);
     }
   }
-
   /// CONFIRM LOCATION UI (SAME SCREEN)
   void _openConfirmLocation(String address) {
     showModalBottomSheet(
